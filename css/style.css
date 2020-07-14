@@ -1,0 +1,176 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 0;
+  padding: 0;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-color: #eee;
+}
+/* headerSection css starts here */
+#headerSection {
+  width: 100%;
+  height: 50px;
+  color: white;
+  margin-bottom: 120px;
+}
+#logoSection {
+  width: 74%;
+  display: inline-block;
+}
+#logoSection h1 {
+  font-size: 16px;
+  margin: 17px 0px 0px 14px;
+}
+#logoSection h1 span {
+  font-weight: 100;
+}
+#listSection {
+  width: 25%;
+  display: inline-block;
+}
+#listSection ul li {
+  display: inline-block;
+  margin-right: 11px;
+  padding: 5px 15px 5px 15px;
+}
+#listSection ul li i {
+  margin-right: 4px;
+  font-weight: 900;
+}
+.headerSignUp {
+  border: 2px solid #ccc;
+  border-radius: 7px;
+}
+.headerSignUp:hover {
+  background-color: lightgray;
+}
+.layout {
+  border-radius: 7px;
+}
+.layout:hover {
+  background-color: lightgray;
+}
+/* headerSection css ends here */
+/*bodySection css starts here*/
+#bodySection {
+  text-align: center;
+  margin-bottom: 140px;
+}
+#bodySection h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+#bodySection p {
+  color: white;
+  font-size: 21px;
+  margin-bottom: 40px;
+  font-weight: 100;
+}
+#bodySection ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 12px 60px 12px 60px;
+  border-radius: 7px;
+}
+.bodySignUp {
+  background-color: white;
+  color: gray;
+  margin-right: 20px;
+}
+.bodyLearnMore {
+  color: white;
+  border: 1px solid white;
+}
+.bodyLearnMore:hover {
+  background-color: rgb(165, 149, 149);
+}
+/* bodySection css ends here */
+/* descriptionSection css starts here */
+#descripSection {
+  background-color: white;
+  width: 77%;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+}
+#descripSection img {
+  width: 100%;
+  border-radius: 5px;
+}
+#descripSection h1 {
+  color: #646464;
+  font-size: 43px;
+  font-weight: 100;
+  letter-spacing: -3px;
+  padding-top: 83px;
+}
+#descripSection p {
+  color: #777;
+  font-size: 22px;
+  font-weight: 100;
+  border-top: 2px solid #c7c4c4;
+  display: inline-block;
+  padding: 35px 0px 50px 0px;
+}
+/* descriptionSection css ends here */
+/* footerSection css starts here */
+#footerSection {
+  background-color: white;
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+#footerSection article div span i {
+  font-size: 45px;
+  border-radius: 100%;
+  padding: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+#div1 span i {
+  background-color: #e89980;
+}
+#div2 span i {
+  background-color: #7fcdb8;
+}
+#div3 span i {
+  background-color: #90b0ba;
+}
+#div4 span i {
+  background-color: #e5cb95;
+}
+#footerSection article div a {
+  text-decoration: none;
+  color: #666;
+  font-size: 30px;
+  font-weight: 100;
+}
+#footerSection article div {
+  display: inline-block;
+  padding: 55px 69px;
+  text-align: center;
+}
+#footerSection article div p {
+  margin-top: 26px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 100;
+  line-height: 27px;
+}
+#div1 {
+  border-right: 2px solid #ccc;
+}
+#div2 {
+  border-bottom: 2px solid #ccc;
+}
+#div3 {
+  border-top: 2px solid #ccc;
+}
+#div4 {
+  border-left: 2px solid #ccc;
+}
+/* footerSection css ends here */
